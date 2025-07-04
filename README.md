@@ -204,20 +204,3 @@ yasmeen-shkarnah/
 4. **Test Responsiveness**: Resize your browser window to see mobile/tablet layouts
 5. **Check Accessibility**: Use keyboard navigation (Tab key) and screen readers
 
-## 📝 Notes for Reviewers
-
-- **Beginner-Friendly Code**: All code includes comments explaining functionality
-- **No External Dependencies**: Pure HTML, SCSS, and JavaScript
-- **Cross-Browser Compatible**: Works in all modern browsers
-- **Performance Optimized**: Efficient animations and minimal file sizes
-- **Submission Ready**: All requirements met and tested
-
-## 📞 Contact
-
-For questions about this portfolio project, please refer to the assignment submission guidelines.
-
----
-
-**Project Status**: ✅ Complete and Ready for Submission  
-**Last Updated**: July 2025  
-**Student**: Yasmeen Shakarnah 
