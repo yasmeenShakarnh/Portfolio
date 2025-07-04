@@ -1,0 +1,26 @@
+@use '../utils/utils' as *;
+
+.resume {
+  padding: 2rem;
+  text-align: center;
+
+  &__heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &__download {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: $primary-color;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}

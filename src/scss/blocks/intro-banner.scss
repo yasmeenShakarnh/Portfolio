@@ -1,0 +1,40 @@
+@use '../utils/utils' as *;
+
+.intro-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background: url('../img/project1.jpg') center/cover no-repeat, $secondary-color;
+
+  &__bio {
+    max-width: 600px;
+  }
+
+  &__heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $text-color;
+  }
+
+  &__description {
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+
+  &__image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  @include respond(mobile) {
+    flex-direction: column;
+    text-align: center;
+
+    &__image {
+      margin-bottom: 1rem;
+    }
+  }
+}

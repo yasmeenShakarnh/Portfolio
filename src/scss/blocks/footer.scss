@@ -1,0 +1,11 @@
+@use '../utils/utils' as *;
+
+.footer {
+  text-align: center;
+  padding: 24px 0 12px 0;
+  background: #e0e7ff;
+  color: #444;
+  font-size: 1rem;
+  border-radius: 16px 16px 0 0;
+  margin-top: 32px;
+}
